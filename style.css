@@ -710,6 +710,9 @@ a {
     .swiper-button-prev{
         display: none !important;
     }
+    .ps-6{
+        padding:0px 30px !important;
+    }
 }
 
 @media(max-width:400px){
