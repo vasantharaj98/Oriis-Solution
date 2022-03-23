@@ -668,7 +668,9 @@ a {
   .swiper-wrapper{
       height: calc(100%-100px) !important;
   }
-
+  .teck_stacks img{
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  }
 @media(max-width:1100px){
     .banner_head{
         font-size: 70px;
@@ -713,6 +715,9 @@ a {
     .ps-6{
         padding:0px 30px !important;
     }
+    .teck_stacks{
+        flex-wrap: wrap-reverse;
+      }
 }
 
 @media(max-width:400px){
