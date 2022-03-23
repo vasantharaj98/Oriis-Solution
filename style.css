@@ -716,7 +716,7 @@ a {
         padding:0px 30px !important;
     }
     .teck_stacks{
-        flex-wrap: wrap-reverse;
+        flex-wrap: wrap;
       }
 }
 
